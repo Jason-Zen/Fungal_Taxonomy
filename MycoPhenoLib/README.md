@@ -53,4 +53,4 @@ Project Link: [https://github.com/Jason-Zen/AI_mycology/tree/master/MycoPhenoLib
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[GUI.jpg]:GUI.jpg
+[GUI.jpg]:https://github.com/Jason-Zen/Fungal_Taxonomy/blob/master/MycoPhenoLib/GUI.jpg
