@@ -1,11 +1,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <a>
     <img src="ico.png" alt="Logo" width="80" height="80">
+  </a>
   <h3 align="center">MycoPhenoLib</h3>
   <p align="center">
     Preliminary designed for constructing machine learning models of fungal taxonmic studies
-    <br />
     <br />
   </p>
 </div>
@@ -15,7 +16,7 @@
 #### Installation
 * Download the complete folder <V1> and run `MycoPhenoLib.py` or download pecked `MycoPhenoLib*.rar` file and run `MycoPhenoLib.exe`.
 * The user interface will be like this:
-![][GUI.jpg]
+![](/GUI.jpg)
 
 #### How to use
 To conduct a general process of model construction and feature importance analysis:
@@ -48,9 +49,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 Any question please feel free to contact: `xyzeng3@gzu.edu.cn`
-
-Project Link: [https://github.com/Jason-Zen/AI_mycology/tree/master/MycoPhenoLib](https://github.com/Jason-Zen/AI_mycology/tree/master/MycoPhenoLib)
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[GUI.jpg]:https://github.com/Jason-Zen/Fungal_Taxonomy/blob/master/MycoPhenoLib/GUI.jpg
