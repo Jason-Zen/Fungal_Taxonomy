@@ -1,22 +1,26 @@
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a>
-    <img src="ico.png" alt="Logo" width="80" height="80">
+    <img src="ico.png" alt="Logo" width="100" height="100">
   </a>
-  <h3 align="center">MycoPhenoLib</h3>
+  <h1 align="center">
+    MycoPhenoLib
+  </h1>
   <p align="center">
-    Preliminary designed for constructing machine learning models of fungal taxonmic studies
-    <br />
+    Construction of machine learning models for fungal taxonomic studies
   </p>
+  <a href="#download"><strong>Download »</strong></a>
+  <br />
 </div>
+
 
 <!-- GETTING STARTED -->
 ## Getting started
 #### Installation
 * Download the complete folder <V1> and run `MycoPhenoLib.py` or download pecked `MycoPhenoLib*.rar` file and run `MycoPhenoLib.exe`.
 * The user interface will be like this:
-![](/GUI.jpg)
+![](GUI.jpg)
+
 
 #### How to use
 To conduct a general process of model construction and feature importance analysis:
@@ -30,6 +34,7 @@ To conduct prediction and specific interpretation:
 3. Click the 'Select model' button, if there is a trained model, to select the machine learning model.
 4. Type the name of target class and order of target entry if conducting sample interpretation.
 
+
 <!-- Outputs -->
 ## Outputs
 Once the program finished running, output files will be generated in the folder `Out_ML` under the same directory as the input excel file.
@@ -42,9 +47,17 @@ Once the program finished running, output files will be generated in the folder 
 * `Performance` folder will generate confusion matrix of tested classifiers demonstrating their predicting performance.
 * `Sample_impact` folder will generate force plot illustrating individual predicting process of a single sample to a specific class.
 
+
+<!-- All Released -->
+## <span id="download">All Released</span>
+* [V1.0.0 (2024/04/01)](https://github.com/Jason-Zen/Fungal_Taxonomy/blob/master/MycoPhenoLib/Packed/MycoPhenoLib_v1.0.0_code.rar)
+  * [Pack for windows](https://github.com/Jason-Zen/Fungal_Taxonomy/blob/v1.0.0/MycoPhenoLib/Packed/MycoPhenoLib_v1.0.0_windows.rar)
+
+
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
 
 <!-- CONTACT -->
 ## Contact
