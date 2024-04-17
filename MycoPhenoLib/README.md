@@ -7,7 +7,7 @@
     MycoPhenoLib
   </h1>
   <p align="center">
-    Construction of machine learning models for fungal taxonomic studies
+    Constructing machine learning models for fungal taxonomic studies
   </p>
   <a href="#download"><strong>Download »</strong></a>
   <br />
@@ -16,13 +16,12 @@
 
 <!-- GETTING STARTED -->
 ## Getting started
-#### Installation
-* Download the complete folder <V1> and run `MycoPhenoLib.py` or download pecked `MycoPhenoLib*.rar` file and run `MycoPhenoLib.exe`.
-* The user interface will be like this:
+
+* Download and run `MycoPhenoLib.py` (in source code) or `MycoPhenoLib.exe` (in packed .rar file), and the main interface will show up:
 ![](GUI.jpg)
 
 
-#### How to use
+## How to use
 To conduct a general process of model construction and feature importance analysis:
 1. Click the 'Select data' button to select the input Excel file. Choose the sampling method and the metric for selecting the best model if necessary.
 2. Select machine learning algorithms to be tested.
@@ -33,7 +32,7 @@ To conduct prediction and specific interpretation:
 2. Tick the 'Excel has worksheet for prediction' checkbox.
 3. Click the 'Select model' button, if there is a trained model, to select the machine learning model.
 4. Type the name of target class and order of target entry if conducting sample interpretation.
-
+5. Click the 'Run' button.
 
 <!-- Outputs -->
 ## Outputs
