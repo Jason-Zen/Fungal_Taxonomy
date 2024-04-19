@@ -15,8 +15,8 @@ from PyQt5.QtGui import QIcon, QTextCharFormat, QColor
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton, QComboBox, QHBoxLayout, \
     QCheckBox, QFileDialog, QPlainTextEdit, QFormLayout, QGroupBox, QLineEdit
 
-from MycoPhenoLib.V1.MPL import MPLInfo
-from MycoPhenoLib.V1.MPL.Master import ExcelParser
+from MPL.__init__ import MPLInfo
+from MPL.Master import ExcelParser
 
 
 class ThreadConsole(QThread):
@@ -76,6 +76,7 @@ class ThreadConsole(QThread):
 
     def stop_signal(self):
         return not self.running
+
 
 class EmitStr(QObject):
     textWrit = pyqtSignal(str)

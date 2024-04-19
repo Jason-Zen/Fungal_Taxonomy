@@ -275,7 +275,7 @@ class ExcelParser:
         else:
             if cls in cls_info:
                 idx_cls = np.where(cls_info == cls)[0]
-                print(idx_cls)
+                print(f"Explaining feature importance of entry {idx_cls+1} to {cls} ...")
                 if 0 < int(idx) <= len(self.x_df2_norm):
                     explainer(cls=int(idx_cls), index=int(idx) - 1)
                 else:
